@@ -1,0 +1,208 @@
+/*navbar*/
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+#front{
+  background-image: url("../images/background-image.jpg");
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+  /* Center the background image */
+  background-position: center;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
+.navbar-collapse li{
+  list-style: none;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding-bottom: 4%;
+  background-color: white;
+}
+
+.navbar-right li{
+  font-size: 16px;
+}
+
+.navbar a{
+  color: black;
+}
+
+#navbar-header{
+  width: 100%;
+  padding-top: 8%;
+  text-align: center;
+  margin-left: 20%;
+}
+
+#logo{
+  font-size: 40px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  letter-spacing: 2px;
+}
+
+#conservation-p{
+  font-size: 14px;
+}
+
+
+/*footer*/
+.footer{
+  display: flex;
+  direction: row;
+  height: 300px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding-top: 5%;
+  padding-left: 20%;
+}
+
+.social-media-icons{
+  position: absolute;
+  right: 10%;
+  top: 70%%;
+  width: 500px;
+}
+
+.social-media-icons img{
+  margin-left: 10%;
+  width: 30px;
+}
+
+
+/*homepage*/
+#index-image-div{
+  width: 100%;
+}
+
+#studex-overlay{
+  position: absolute;
+  font-size: 100px;
+  top: 30%;
+  width: 50%;
+  left: 10%;
+  color: #990000;
+  text-shadow: -2px -2px  white;
+  text-align: center;
+}
+
+#index-image{
+  width: 100%;
+}
+
+#front-separation-div{
+  height: 600px;
+}
+
+#wildlife-images{
+  margin: 5% 5% 5% 5%;
+}
+
+#carousel-example-generic{
+  padding-bottom: 5%;
+}
+
+.carousel-inner{
+  margin: 0 auto;
+
+}
+
+#phala-1{
+  max-width: 100%;
+}
+
+
+#virtual-reality-txt{
+  font-size: 50px;
+  text-align: center;
+}
+
+.virtual-reality, .front-description{
+  text-shadow: 1px 1px grey;
+  background-color: #eee;
+  opacity: 0.7;
+}
+
+.front-description{
+  margin-top: 30%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: center;
+}
+
+#front-description-txt{
+  font-size: 30px;
+}
+
+#how-it-works-list{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#how-it-works-title{
+  text-align: center;
+  font-size: 60px;
+  color: #990000;
+  text-shadow: -2px -2px  white;
+}
+
+.how-it-works-box{
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+
+
+
+/*wildlife*/
+
+
+/*founder page*/
+#founder-image{
+  border: 5px solid white;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+}
+
+#founder-image img{
+  height: 400px;
+}
+
+#founder-bio{
+  background-color: black;
+  border: 2px solid black;
+  height: 1000px;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: white;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 50%;
+  font-size: 14px;
+}
+
+.jumbotron-founder{
+  padding-left: 20%;
+  background-color: #eee;
+}
+
+#founder-heading{
+  text-align: center;
+  width: 30%;
+}
+
+
+
