@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Wildlife Auction</title>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <script
@@ -36,7 +36,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">The Technology</a></li>
+          <li><a href="technology.html">The Technology</a></li>
           <li><a href="wildlife.html">The Wildlife</a></li>
           <li><a href="founder.html">Founder</a></li>
           <li><a href=#>FAQs</a></li>
@@ -63,15 +63,15 @@
 </div>
 
 <!-- WELCOME SLIDE SHOW -->
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <div id="carousel-frontpage-images" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+      <li data-target="#carousel-frontpage-images" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-frontpage-images" data-slide-to="1"></li>
+      <li data-target="#carousel-frontpage-images" data-slide-to="2"></li>
+      <li data-target="#carousel-frontpage-images" data-slide-to="3"></li>
+      <li data-target="#carousel-frontpage-images" data-slide-to="4"></li>
+      <li data-target="#carousel-frontpage-images" data-slide-to="5"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -98,31 +98,86 @@
     </div>
 
     <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <a class="left carousel-control" href="#carousel-frontpage-images" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <a class="right carousel-control" href="#carousel-frontpage-images" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
   </div>
 
-<!-- short description -->
+<!-- SHORT DESCRIPTION JUMBOTRON -->
   <div class="jumbotron front-description">
     <p1 id="front-description-txt">Studex is a "rare game" breeding platform built upon Etherium. We seek to contribute to the extension and deepening of South Africa's conservation efforts through the preservation of South Africa's wildlife heritage. </p>
     <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
   </div>
 
+<!-- HOW IT WORKS JUMBOTRON-->
+
   <div class="jumbotron how-it-works">
     <p id="how-it-works-title"><strong>How It Works</strong></p>
     <div id="how-it-works-list">
-      <div class="how-it-works-box"></div>
-      <div class="how-it-works-box"></div>
-      <div class="how-it-works-box"></div>  
+      <div class="how-it-works-box">
+        <img src="images/we-buy.png" alt="We Buy" class="how-it-works-image">
+      </div>
+      <div class="how-it-works-box">
+        <img src="images/we-nurture.png" alt="We Nurture" class="how-it-works-image">
+      </div>
+      <div class="how-it-works-box">
+        <img src="images/we-sell.png" alt="We Sell" class="how-it-works-image">
+      </div>  
     </div>
   </div>
 
+
+<!-- VIDEO JUMBOTRON -->
+  <div class="jumbotron homepage-videos">
+    <p id="video-footage-header"><strong>DRONE FILMING TECHNOLOGY</strong></p>
+    <div id="how-it-works-list">
+  
+    </div>
+  </div>
+
+<!-- VIDEO SLIDE SHOW -->
+  <div id="carousel-frontpage-videos" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-frontpage-videos" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-frontpage-videos" data-slide-to="1"></li>
+      <li data-target="#carousel-frontpage-videos" data-slide-to="2"></li>
+      <li data-target="#carousel-frontpage-videos" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <iframe width="960" height="720" src="https://www.youtube.com/embed/nCQ-9Zhu-sI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="item">
+        <iframe width="960" height="720" src="https://www.youtube.com/embed/h0FluRTm1R4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>    
+      <div class="item">
+          <iframe width="960" height="720" src="https://www.youtube.com/embed/99Z8JsV89aE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div> 
+      <div class="item">
+        <iframe width="960" height="720" src="https://www.youtube.com/embed/EK8XRni1_fM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div> 
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-frontpage-videos" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-frontpage-videos" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<!-- FOOTER -->
   <footer class="footer">
     <div class="contact-info">
       <p>Contact Info:</p>
