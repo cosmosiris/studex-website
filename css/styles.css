@@ -79,7 +79,7 @@ body{
 
 
 /*homepage*/
-#index-image-div{
+#index-opening-image-div{
   width: 100%;
   margin-top: 0;
 }
@@ -87,15 +87,15 @@ body{
 #studex-overlay{
   position: absolute;
   font-size: 100px;
-  top: 30%;
+  top: 16%;
   width: 50%;
-  left: 10%;
+  left: 12%;
   color: #990000;
   text-shadow: -2px -2px  white;
   text-align: center;
 }
 
-#index-image{
+#index-opening-image{
   width: 100%;
 }
 
