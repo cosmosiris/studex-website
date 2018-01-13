@@ -4166,7 +4166,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4298,7 +4298,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-top: 8px;
   margin-right: 15px;
   margin-bottom: 8px;
-  background-color: transparent;
+  background-color: grey;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -4334,7 +4334,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: transparent;
+    background-color: grey;
     border: 0;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -6316,7 +6316,7 @@ button.close {
 }
 .carousel-control {
   position: absolute;
-  top: 0;
+  top: 40%;
   bottom: 0;
   left: 0;
   width: 15%;
@@ -6405,7 +6405,7 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: black;
+  background-color: white;
   /*background-color: rgba(0, 0, 0, 0);*/
   border: 1px solid white;
   border-radius: 20px;
@@ -6414,7 +6414,7 @@ button.close {
   width: 30px;
   height: 30px;
   margin: 0;
-  background-color: red;
+  background-color: #990000;
 }
 .carousel-caption {
   position: absolute;
